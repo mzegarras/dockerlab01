@@ -10,7 +10,7 @@ services:
   website:
     image: "tci-web1:latest"
     build:
-      context: angular/
+      context: angular2/
       dockerfile: ./Dockerfile
     ports:
       - 8081:80
